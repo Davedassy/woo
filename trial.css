@@ -1,0 +1,301 @@
+
+div.caro-lay{
+    position: absolute;
+    top: 140px;
+    z-index: 800;
+    width: 228px;
+}
+
+.caro-lay > .online-b{
+    background: rgb(41, 38, 38);
+    margin-bottom: 11px;
+    padding: 13px 5px;
+}
+
+.caro-lay > .online-b > img {
+    margin-left: -11px;
+}
+
+.caro-lay > .branch{
+    background: rgb(46, 40, 40);
+    padding: 9px 10px
+}
+
+
+ul.ul-mega{
+    position: relative;
+    display: flex; 
+    margin-left: 59px;
+    top: 147px;
+    left: 170px;
+    z-index: 800;
+
+}
+
+ul.ul-mega li{
+    list-style-type: none;
+    margin: 0 12px;
+}
+
+
+ul.ul-mega li:hover .menu{
+   opacity: 1;
+   visibility: visible;
+   overflow: visible;
+}
+
+ul.ul-mega li:hover .menu-1{
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+ }
+
+ul.ul-mega li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+}
+
+ul.ul-mega li a:hover{
+    color: rgba(51, 185, 51, 0.959);
+}
+
+
+.menu{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    margin-left: 2px;
+    background: white;
+    padding: 12px; 
+
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    
+}
+
+.menu-1{
+    display: flex;
+    position: absolute;
+    /* margin-top: 9px; */
+    top: 30px;
+    margin-left: -204px;
+    background: white;
+    padding: 8px 20px;
+
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    
+}
+
+ .col-1 > h3.menu-cate a{
+    margin-left: 12px; 
+    font-size: 19px;
+    color: black
+}
+
+.col-1 > h3.menu-cate a:hover{
+    color: green;
+}
+.col-1-1 > h3.menu-cate a{
+    margin-left: 12px; 
+    font-size: 19px;
+    color: black
+}
+
+.col-1-1 > h3.menu-cate a:hover{
+   color: green;
+}
+
+.col-1{
+    display: block;
+    line-height: 26px;
+    margin-left: 1px;
+}
+
+.col-1 > li{
+   list-style-type: square !important;
+}
+
+.col-1-1 {
+    display: block;
+    line-height: 26px;
+    margin-left: 23px;
+    border-left: 1px solid #666;
+}
+
+.col-1-1 > li{
+    list-style-type: square !important;
+ }
+ 
+
+.col-1 li > a{
+    color: rgb(32, 29, 29)!important;
+}
+
+.col-1-1 li > a{
+    color: rgb(32, 29, 29)!important; 
+}
+
+.col-1 li > a:hover{
+    color: green!important;
+    text-decoration: underline; 
+}
+
+.col-1-1 li > a:hover{
+    color:green!important; 
+    text-decoration: underline;
+}
+
+
+/* null column */
+.col-1-1-null{
+    display: block;
+    line-height: 17px;
+    margin-left: 10px;
+    border-left: 1px #666 solid;
+    /* flex-wrap: wrap; */
+    width: 169px;
+}
+
+.col-1-1-null > h3.menu-cate-null {
+    margin-left: 18px;
+}
+
+.col-1-1-null > h3.menu-cate-null > a{
+    margin-left: 12px; 
+    font-size: 19px;
+    color: black
+
+}
+
+.col-1-1-null > h3.menu-cate > a:hover{
+    color: green;
+}
+/* .col-1-1-null > h3.menu-cate a{
+    margin-left: 12px; 
+    font-size: 19px;
+    color: black
+
+}
+
+.col-1-1-null > h3.menu-cate a:hover{
+   color: green;
+} */
+.col-1 li > a{
+    color: rgb(32, 29, 29)!important;
+}
+
+.col-1-1-null li > a{
+    color: rgb(32, 29, 29)!important; 
+}
+
+.col-1 li > a:hover{
+    color: green!important;
+    text-decoration: underline; 
+}
+
+.col-1-1-null li > a:hover{
+    color:green!important; 
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.col-1-null{
+    display: block;
+    line-height: 17px;
+    margin-left: -11px;
+    /* flex-wrap: wrap; */
+    width: 169px;
+}
+
+.col-1-null > h3.menu-cate-null {
+    margin-left: 18px;
+}
+
+.col-1-null > h3.menu-cate-null a{
+    margin-left: 12px; 
+    font-size: 19px;
+    color: black
+
+}
+
+
+.col-1-null > h3.menu-cate a:hover{
+    color: green;
+}
+/* .col-1-null > h3.menu-cate a{
+    margin-left: 12px; 
+    font-size: 19px;
+    color: black
+
+}
+
+.col-1-null > h3.menu-cate a:hover{
+   color: green;
+} */
+/* .col-1 li > a{
+    color: rgb(32, 29, 29)!important;
+} */
+
+/* .col-1 li > a:hover{
+    color: green!important;
+    text-decoration: underline; 
+} */
+
+.col-1-1-null  > li  {
+    line-height: 22px;
+    list-style-type: square !important;
+}
+
+.col-1-null  > li  {
+    line-height: 21px;
+    list-style-type: square !important;
+}
+
+.col-1-null li > a{
+    color: rgb(32, 29, 29)!important; 
+}
+
+.col-1-null li > a:hover{
+    color:green!important; 
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* last */
+
+.menu-1-last{
+    display: flex;
+    position: absolute;
+    /* margin-top: 9px; */
+    top: 30px;
+    margin-left: -717px;
+    background: white;
+    padding: 8px 20px;
+
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    
+}
+
+
+ul.ul-mega li:hover .menu-1-last{
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+ }
